@@ -1,0 +1,37 @@
+{
+  "author": "Pedro Assis <pedroassisc@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tallesl/bitap/issues"
+  },
+  "description": "an approximate string matching algorithm",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "homepage": "https://github.com/tallesl/bitap#readme",
+  "keywords": [
+    "algorithm",
+    "baeza",
+    "bitap",
+    "bitwise",
+    "distance",
+    "fuzzy",
+    "gonzalo",
+    "levenshtein",
+    "matching",
+    "navarro",
+    "ricardo",
+    "string",
+    "yates"
+  ],
+  "license": "Fair",
+  "main": "./lib/bitap.js",
+  "name": "bitap",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tallesl/bitap.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.0"
+}
