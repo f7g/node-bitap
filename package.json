@@ -1,7 +1,7 @@
 {
-  "author": "Pedro Assis <pedroassisc@gmail.com>",
+  "author": "Pedro Assis <pedroassisc@gmail.com> & Talles L <talleslasmar@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tallesl/bitap/issues"
+    "url": "https://github.com/tallesl/node-bitap/issues"
   },
   "description": "an approximate string matching algorithm",
   "devDependencies": {
@@ -9,7 +9,6 @@
     "istanbul": "^0.3.15",
     "mocha": "^2.2.5"
   },
-  "homepage": "https://github.com/tallesl/bitap#readme",
   "keywords": [
     "algorithm",
     "baeza",
@@ -29,7 +28,7 @@
   "name": "bitap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tallesl/bitap.git"
+    "url": "git+https://github.com/tallesl/node-bitap.git"
   },
   "scripts": {
     "test": "mocha"
