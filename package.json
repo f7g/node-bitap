@@ -26,7 +26,6 @@
     "yates"
   ],
   "license": "Fair",
-  "main": "./lib/bitap.js",
   "name": "bitap",
   "repository": {
     "type": "git",

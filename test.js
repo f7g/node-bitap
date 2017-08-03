@@ -1,5 +1,5 @@
 var assert = require('assert')
-  , bitap  = require('../lib/bitap')
+  , bitap  = require('.')
 
 // h   e   r   e    
 // 0   1   2   3   4
