@@ -3,7 +3,7 @@
   "bugs": {
     "url": "https://github.com/tallesl/node-bitap/issues"
   },
-  "description": "an approximate string matching algorithm",
+  "description": "An approximate string matching algorithm.",
   "devDependencies": {
     "coveralls": "^2.13.1",
     "istanbul": "^0.4.5",
