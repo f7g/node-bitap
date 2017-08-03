@@ -25,4 +25,3 @@ undefined
 > bitap('where is my elephant', 'telephone', 3)
 [ 18 ]
 ```
-

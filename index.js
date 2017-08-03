@@ -102,4 +102,3 @@ module.exports = function (text, pattern, k) {
   var vars = preProcess(pattern, k)
   return search(text, vars, k)
 }
-

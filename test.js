@@ -24,24 +24,20 @@ var assert = require('assert')
 
 // k   i   t   t   e   n 
 // 49  50  51  52  53  54
+
 var text = 'here i am sitting at the kitchen sink next to my kitten'
 
 it('should match correctly with distance 1', function () {
-
   assert.deepEqual(bitap(text, 'ten', 1), [ 15, 31, 53, 54 ])
   assert.deepEqual(bitap(text, 'sin', 1), [ 11, 15, 34, 35 ])
   assert.deepEqual(bitap(text, 'sit', 1), [ 11, 12, 27, 34, 51 ])
   assert.deepEqual(bitap(text, 'kit', 1), [ 12, 26, 27, 50, 51 ])
   assert.deepEqual(bitap(text, 'xyx', 1), [ ])
-
 })
 
 it('should match correctly with distance 2', function () {
-
   assert.deepEqual(bitap(text, 'match',  2), [ 29 ])
   assert.deepEqual(bitap(text, 'there',  2), [ 3, 23 ])
   assert.deepEqual(bitap(text, 'kitten', 2), [ 15, 31, 52, 53, 54 ])
   assert.deepEqual(bitap(text, 'xyxyxy', 2), [ ])
-
 })
-
